@@ -68,13 +68,6 @@ function zip(...$arrays)
 
 function uniq($array) 
 {
-  // TODO
-//   var_dump(uniq([1, 2, 1, 4, 1, 3]));
-// var_dump([1, 2, 4, 3]);
-
-// // removing duplicate values in [1, 2, 1, 3, 3]
-// var_dump(uniq([1, 2, 1, 3, 3]));
-// var_dump([1, 2, 3]);
   $newArr = [];
 
   foreach($array as $arr) {
