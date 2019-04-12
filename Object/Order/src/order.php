@@ -9,7 +9,7 @@ class Order
   {
     $this->products[] = $product;
   }
-
+  
   public function total():int
   {
     $total = 0;
