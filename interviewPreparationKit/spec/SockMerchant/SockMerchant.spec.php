@@ -1,5 +1,4 @@
 <?php
-
 use \SockMerchant\SockMerchant;
 
 describe('Sock Merchant', function () {

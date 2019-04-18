@@ -25,30 +25,30 @@ describe('Array Utils', function () {
     expect($arrayUtil->rotLeft(13))->toEqual($expected);
   });
 
-  it('stats [-4, 3, -9, 0, 4, 1]', function () {
+  xit('stats [-4, 3, -9, 0, 4, 1]', function () {
     $arrayUtil = new ArrayUtil([-4, 3, -9, 0, 4, 1]);
     $expected = ['0.500000', '0.333333', '0.166667'];
     expect($arrayUtil->stats())->toEqual($expected);
   });
 
-  it('stats [1, 2, 3, -1, -2, -3, 0, 0]', function () {
+  xit('stats [1, 2, 3, -1, -2, -3, 0, 0]', function () {
     $arrayUtil = new ArrayUtil([1, 2, 3, -1, -2, -3, 0, 0]);
     $expected = ['0.375000', '0.375000', '0.250000'];
     expect($arrayUtil->stats())->toEqual($expected);
   });
 
-  it('min and max of [1, 2, 3, 4, 5]', function () {
+  xit('min and max of [1, 2, 3, 4, 5]', function () {
     $arrayUtil = new ArrayUtil([1, 2, 3, 4, 5]);
     $expected = [10, 14];
     expect($arrayUtil->miniMaxSum())->toEqual($expected);
   });
 
-  it('highest frequency of [1, 4, 4, 4, 5, 3]', function () {
+  xit('highest frequency of [1, 4, 4, 4, 5, 3]', function () {
     $arrayUtil = new ArrayUtil([1, 4,  4, 4, 5, 3]);
     expect($arrayUtil->highestFrequency())->toEqual(4);
   });
 
-  it('highest frequency of [1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4]', function () {
+  xit('highest frequency of [1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4]', function () {
     $arrayUtil = new ArrayUtil([1, 2, 3, 4,  5, 4, 3, 2, 1,   3, 4]);
     expect($arrayUtil->highestFrequency())->toEqual(3);
   });
