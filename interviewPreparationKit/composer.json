@@ -1,6 +1,8 @@
 {
   "name": "ifpb/interview",
-  "require": {},
+  "require": {
+    "kahlan/kahlan": "^4.6"
+  },
   "autoload": {
     "psr-4": {
       "Vector\\": "src/Vector/",
@@ -11,6 +13,5 @@
     }
   },
   "require-dev": {
-    "kahlan/kahlan": "^4.6"
   }
 }

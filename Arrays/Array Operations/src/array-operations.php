@@ -32,3 +32,7 @@ function sumOdds($array)
   }
   return $result;
 }
+
+echo sum([4,45]);
+echo "\n\n";
+echo " samuel \n\n";

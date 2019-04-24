@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19497b4e1c60ad3c28ffcf01220b30c4",
-    "packages": [
+    "content-hash": "7528ea24e85af0d2ef5cebc3de16b9a4",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "kahlan/kahlan",
             "version": "4.6.3",
@@ -61,7 +62,6 @@
             "time": "2019-04-18T14:16:23+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

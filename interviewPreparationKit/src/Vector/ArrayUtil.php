@@ -17,7 +17,9 @@ class ArrayUtil
       $actualIndex = ($newIndex < 0 ? $newIndex + sizeof($this->array) : $newIndex);
       $arr[$actualIndex] = $value;
     }
+    
     return $arr;
+
   }
 
   public function stats()
