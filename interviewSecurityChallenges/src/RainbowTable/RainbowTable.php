@@ -26,4 +26,30 @@ function array_sampling($chars, $size, $combinations = [])
 class RainbowTable
 {
   // TODO
+  public static function cracker($text, $length) 
+  {
+    $arr = [];
+
+    for($x = 96; $x <= 122; $x++) {
+      for($y = 97; $y <= 122; $y++) {
+        if($x === 96) {
+
+          if(md5(chr($y)) === $text) {
+            return chr($y);
+          }
+          
+          $arr[md5($y)] = chr($y);
+
+        } else {
+
+          if(md5(chr($x) . chr($y)) === $text) {
+            return chr($x) . chr($y);
+          }
+
+          $arr[md5(chr($x) . chr($y))] = chr($x) . chr($y);
+
+        }
+      }
+    }
+  }
 }

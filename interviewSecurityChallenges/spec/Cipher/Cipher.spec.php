@@ -35,7 +35,7 @@ describe('Cipher', function () {
     expect(Cipher::allRots($message))->toEqual($expected);
   });
 
-  xit('dcripting text with rot7', function () {
+  it('dcripting text with rot7', function () {
     $message = 'Xbhs é v kpav wvwbshy thpz bzhkv wvy bt huhspzah kl ylklz? Jhpb uh ylkl, é wopzopun!';
     $expected = [
       'rot1' => 'Ycit é w lqbw xwxctiz uiqa cailw xwz cu ivitqabi lm zmlma? Kiqc vi zmlm, é xpqapqvo!',
