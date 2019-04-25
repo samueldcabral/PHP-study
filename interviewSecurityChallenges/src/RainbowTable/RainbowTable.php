@@ -53,3 +53,7 @@ class RainbowTable
     }
   }
 }
+
+$test = ['a', 'b', 'c'];
+
+var_dump(\RainbowTable\array_sampling($test,3));
